@@ -1,13 +1,12 @@
 body {
-    background-image: url('sabrina2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color: black;
+    background-color: rgb(252, 179, 190);
+    color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+}
+h1, h2, h3, p {
+    text-shadow: 2px 2px 4px black;
 }
 
 
@@ -20,8 +19,94 @@ body {
     border-radius: 8px;
     font-weight: bold;
     transition: 0.3s;
+
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
 }
+
 
 .nupp:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.nupp-parem {
+        display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+}
+.nupp-parem:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.sektsioon {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+.responsive-image {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.pilt-keskus {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.pilt-keskus img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 0;
+}
+
+
+.spotify-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #1DB954;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.spotify-logo {
+  height: 20px;
+}
+
+
+.spotify-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
