@@ -1,2 +1,2 @@
 # ER_projekt
-tekst
+See on meie projekti repositoorium. Täpsemalt loe repositooriumi wiki-st!
