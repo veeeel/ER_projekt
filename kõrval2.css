@@ -1,0 +1,17 @@
+.spotify-btn {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img[alt*="YouTube"], img[style*="youtube"], a img {
+    transition: 0.3s;
+}
+
+a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}

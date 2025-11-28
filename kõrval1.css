@@ -1,0 +1,15 @@
+body {
+    padding-bottom: 80px; /* et nupp ei kattuks tekstiga */
+}
+
+.sektsioon h3 {
+    color: #ffeef5;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.pilt-keskus img {
+    max-width: 700px;
+    border-radius: 15px;
+    border: 3px solid rgba(255,255,255,0.3);
+}

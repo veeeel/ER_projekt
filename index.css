@@ -1,0 +1,10 @@
+.sektsioon:first-of-type h1 {
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.pilt-keskus img {
+    max-width: 600px;
+    border: 4px solid rgba(255,255,255,0.4);
+}
